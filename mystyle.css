@@ -1,0 +1,106 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  body{
+    background: linear-gradient(#3e0e04, #0d0505) fixed;
+    background-repeat:no-repeat;
+    background-size: cover
+  }
+.container{
+    margin: 5% 25%;
+    display: flex;
+    width: 50%;
+    border-radius: 2%;
+    background-color: rgba(12,0,0,255);
+    color: white;
+    padding: 1%;
+
+}
+.right{
+    flex-wrap: nowrap;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+ul {
+    display: flex;
+  }
+  
+  li {
+    margin-left: 20px;
+    font-weight: 700;
+  }
+  span{
+    color: #ba3d03;
+  }
+  .billie{
+      padding-right: 3%;
+  }
+form input{
+    border: solid #ba3d03;
+    padding: 2%;
+    width: 80%;
+    background-color: rgba(12,0,0,255);
+}
+.btn{
+    justify-content: space-between;
+}
+.button1 {
+    background-color: #ba3d03;
+    border: none;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  .button2 {
+    background-color: rgba(12,0,0,255);
+    border-color: #ba3d03;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  .log{
+      text-align: center;
+  }
+    .ic{
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn{
+    display: flex;
+    justify-content: space-around;
+  }
